@@ -17,19 +17,15 @@ letter-spacing: 1px;
   width: 100%;
 }
 .header{
-  position:absolute;
+  position: absolute;
   top:0;
   left: 0;
-  z-index: 1000;
+  right: 0;
   width: 100%;
 }
 
-.header_in{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .hlogo{
+  width: 80px;
   margin-left: 120px;
   opacity: 1;
   transition: opacity 0.1s linear;
@@ -43,9 +39,11 @@ letter-spacing: 1px;
   font-weight: 400;
   font-size: 32px;
   color: #f7f7f7;
-  margin-left: 10px;
-  margin-bottom: 8px;
+  line-height: 60px;
+  margin-top: -65px;
   transition: text-shadow 0.1s linear;
+  margin-left :200px;
+  width: 180px;
 }
 .logo_text:hover{
   cursor: pointer;
@@ -53,22 +51,22 @@ letter-spacing: 1px;
 }
 
 .nav{
-  display: flex;
-  margin-top: 30px;
   margin-right: 120px;
+  float: right;
 }
 li{
   list-style-type: none;
   display: inline;
 }
 
-.nav_link{
+.nav_link {
   color: #f7f7f7;
   font-weight: 400;
   font-size: 23px;
   text-decoration: none;
   margin-left: 80px;
   transition: color 0.1s linear;
+  margin-top: 5px;
 }
 .nav_link:hover{
   cursor: pointer;
@@ -102,11 +100,9 @@ li{
   height: 1000px;
   background: url('animals/fox.png') center no-repeat;
   background-size: cover;
-  padding-top: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .intro_title{
@@ -212,9 +208,9 @@ cursor:default;
 }
 .left{
   margin-left: 120px;
-  margin-right: 60px;
-opacity: 1;
-transition: opacity 0.4s linear;
+  margin-right: 30px;
+  opacity: 1;
+  transition: opacity 0.4s linear;
 }
 
 .left:hover {
@@ -223,7 +219,7 @@ cursor: pointer;
 }
 .deer {
 	position: relative;
-	width: 100%;
+	width: 300px;
 
 }
 .deer:hover{
@@ -232,7 +228,7 @@ cursor: pointer;
 }
 .sqrl {
 	position: relative;
-	width: 100%;
+	width: 300px;
 }
 .sqrl:hover{
   cursor: pointer;
@@ -240,7 +236,7 @@ cursor: pointer;
 }
 .bird {
 	position: relative;
-	width: 100%;
+	width: 300px;
 }
 .bird:hover{
   cursor: pointer;
@@ -248,6 +244,7 @@ cursor: pointer;
 }
 .right{
   margin-right: 120px;
+  margin-left: 30px;
   opacity: 1;
   transition: opacity 0.4s linear;
 }
@@ -284,6 +281,10 @@ h4 {
   margin-bottom: 60px;
   padding: 0 60px;
 }
+#dr{
+padding-left: 45px;
+padding-right: 45px;
+}
 #sq{
   padding-left: 110px;
 }
@@ -292,8 +293,8 @@ h4 {
   padding-left: 88px;
 }
 
-.intro_bot{
-  width: 100%;
+.intro_bot {
+  left: 50%;
   float: center;
   margin-top: 240px;
 }
@@ -341,7 +342,6 @@ cursor:default;
   float: center;
   margin-top: 60px;
   margin-bottom: 240px;
-  margin-left: 500px;
   width: 570px;
   height: 60px;
   padding: 10px 15px;
@@ -363,7 +363,7 @@ cursor:default;
 }
 
 .flogo{
-  width: 100px;
+  width: 80px;
   margin-left: 120px;
   padding-top: 180px;
   opacity: 1;
@@ -380,15 +380,18 @@ cursor:default;
   font-size: 32px;
   color: #f7f7f7;
   line-height: 60px;
-  margin-left: 90px;
   margin-top: -65px;
   transition: text-shadow 0.1s linear;
-  margin-left:200px;
+  margin-left :200px;
   width: 180px;
 }
 .flogo_text:hover{
   cursor: pointer;
   text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+.fnav{
+  margin-right: 80px;
+  float: right;
 }
 
 li{
@@ -401,7 +404,6 @@ ul {
 }
 
 .fnav_link{
-  float: center;
   color: #f7f7f7;
   font-weight: 400;
   font-size: 23px;
@@ -417,6 +419,7 @@ ul {
 }
 
 .n2{
+  float: center;
   margin-left: 30px;
   margin-bottom: -10px;
 }
